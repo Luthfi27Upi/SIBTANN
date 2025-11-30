@@ -1,0 +1,121 @@
+/* login */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0c326f;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login-box {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .login-content {
+    display: flex;
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: -20px;
+  }
+  
+  .login-form {
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+  }
+  
+  .logo {
+    width: 180px; 
+    height: 150px;
+    margin-bottom: 10px; 
+  }
+  
+  h1 {
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: #0c326f;
+    display: inline-block;
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .login-button:hover {
+    background-color: #e0a806;
+  }
+  
+  .login-image {
+    width: 50%;
+    background-color: #f4f4f4;
+  }
+  
+  .login-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+  }
+
+.password-wrapper {
+    position: relative;
+    display: flex;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #666;
+}
+

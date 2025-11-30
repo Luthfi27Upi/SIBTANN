@@ -1,0 +1,30 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.content {
+    font-family: 'Nunito';
+}
+
+.cell-content {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+th, td {
+    font-size: 14px;
+}
+
+.card-body, th, td {
+    color: #858796;
+}
+
+.progress {
+    min-width: 100;
+}
